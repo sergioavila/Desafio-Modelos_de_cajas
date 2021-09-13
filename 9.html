@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 9 -- Solución</title>
+    <style type="text/css" media="screen">
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        background: #eee;
+      }
+      .header {
+        background: black;
+        padding: 10px 20px;
+      }
+      .header__title {
+        color: white;
+        margin: 0;
+      }
+      .aside,
+      .article {
+        box-sizing: border-box;
+        float: left;
+      }
+      .aside {
+        width: 40%;
+        padding: 10px 20px;
+      }
+      .article {
+        width: 60%;
+        padding: 10px 20px;
+        background: white;
+      }
+      .aside__link {
+        text-decoration: none;
+        color: #2aa2e4;
+      }
+
+      .footer {
+        background: #aaa;
+        text-align: center;
+        clear: both;
+        color: white;
+        padding-bottom: 10px;
+      }
+      .footer__text {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1 class="header__title">Título página</h1>
+      </header>
+      <aside class="aside">
+        <h2 class="aside__menu">Menú</h2>
+        <ul class="aside__list">
+          <li class="aside__item">
+            <a class="aside__link" href="#">item-1</a>
+          </li>
+          <li class="aside__item">
+            <a class="aside__link" href="#">item-2</a>
+          </li>
+          <li class="aside__item">
+            <a class="aside__link" href="#">item-3</a>
+          </li>
+          <li class="aside__item">
+            <a class="aside__link" href="#">item-4</a>
+          </li>
+          <li class="aside__item">
+            <a class="aside__link" href="#">item-5</a>
+          </li>
+        </ul>
+      </aside>
+      <article class="article">
+        <h2 class="article__title">Sub-titulo</h2>
+        <p class="article__content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+          voluptates aperiam, officiis asperiores accusantium ducimus architecto
+          reiciendis unde error. Sunt cumque laudantium aut itaque unde
+          perferendis libero deleniti reiciendis ad.
+        </p>
+        <p class="article__content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          minus quidem vitae tempora reiciendis! Totam odit in quisquam harum
+          voluptatem voluptate pariatur aut soluta eius a at laboriosam, commodi
+          eum.
+        </p>
+      </article>
+      <footer class="footer">
+        <p class="footer__text">&copy; Todos los derechos reservados</p>
+      </footer>
+    </main>
+  </body>
+</html>

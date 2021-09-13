@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ejercicio 3 -- Solución</title>
+    <style media="screen" type="text/css">
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .flag {
+        width: 500px;
+        height: 300px;
+      }
+      .flag__container {
+        border: 1px solid;
+        margin: 30px;
+      }
+      .flag__spain {
+        height: 100%;
+      }
+      .flag__spain--red {
+        background-color: red;
+        height: 30%;
+      }
+      .flag__spain--yellow {
+        background-color: yellow;
+        height: 40%;
+      }
+      .flag__denmark {
+        background: red;
+        height: 100%;
+        position: relative;
+      }
+      .flag__denmark--white {
+        background: white;
+      }
+      .flag__denmark--v {
+        width: 30px;
+        height: 100%;
+        margin-left: 125px;
+      }
+      .flag__denmark--h {
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        display: block;
+        top: 135px;
+        margin-left: 0;
+        left: 0;
+        z-index: 1;
+      }
+      .flag__emirates {
+        background: red;
+        height: 100%;
+        position: relative;
+      }
+
+      .flag__emirates--black {
+        background: black;
+        width: 75%;
+        height: 33%;
+        float: right;
+      }
+
+      .flag__emirates--green {
+        background: green;
+        width: 75%;
+        height: 33%;
+        float: right;
+      }
+
+      .flag__emirates--white {
+        background: white;
+        width: 75%;
+        height: 34%;
+        float: right;
+      }
+
+      .flag__emirates--nose {
+        background: purple;
+        width: 75%;
+        height: 34%;
+        position: absolute;
+      }
+
+      .flag__japan {
+        height: 100%;
+        background-color: white;
+        position: relative;
+      }
+      .flag__japan--circle {
+        width: 120px;
+        height: 120px;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        /* margin-top: 100px; */
+        border-radius: 50%;
+        background-color: red;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flag">
+      <!-- Españita -->
+      <div class="flag__container flag__spain">
+        <div class="flag__spain--red"></div>
+        <div class="flag__spain--yellow"></div>
+        <div class="flag__spain--red"></div>
+      </div>
+
+      <!-- Dinamarca -->
+      <div class="flag__container flag__denmark">
+        <div class="flag__denmark flag__denmark--white flag__denmark--v"></div>
+        <div class="flag__denmark flag__denmark--white flag__denmark--h"></div>
+      </div>
+
+      <!-- Emiratos -->
+      <div class="flag__container flag__emirates">
+        <div class="flag__emirates--green"></div>
+
+        <div class="flag__emirates--white"></div>
+        <div class="flag__emirates--black"></div>
+      </div>
+
+      <!-- Japon -->
+      <div class="flag__container flag__japan">
+        <div class="flag__japan--circle"></div>
+      </div>
+    </div>
+  </body>
+</html>
